@@ -1,0 +1,401 @@
+{
+    "lang": "english",
+    "file": "amanda.pdf",
+    "lastModified": "2021-09-16T08:42",
+    "partialExtractionIndicator": "0",
+    "langCode": "en",
+    "personal": {
+        "title": "Drs.",
+        "firstName": "Amanda",
+        "middleName": "Lisa",
+        "lastName": "Michaelson",
+        "completeName": "Amanda Michaelson",
+        "initials": "A. L.",
+        "birthDate": "1980-08-06",
+        "birthPlace": "Washington, DC",
+        "nationality": {
+            "code": "US",
+            "description": "American"
+        },
+        "nationalId": "12345678 W",
+        "gender": {
+            "code": "2",
+            "description": "Female"
+        },
+        "driversLicenses": [
+            {
+                "driversLicense": "B"
+            }
+        ],
+        "address": {
+            "latitude": "33.4255104",
+            "longitude": "-111.9400054",
+            "addressLine": "3176 E. 14th Street",
+            "street": "E. 14th Street",
+            "number": "3176",
+            "postalCode": "85483",
+            "city": "Tempe",
+            "subRegion": {
+                "code": "",
+                "description": ""
+            },
+            "region": {
+                "code": "US-AZ",
+                "description": "US Arizona"
+            },
+            "country": {
+                "code": "US",
+                "description": "United States"
+            }
+        },
+        "phones": [
+            {
+                "number": "+1234567890",
+                "type": "mobile"
+            },
+            {
+                "number": "+1234567890",
+                "type": "home"
+            }
+        ],
+        "emails": [
+            {
+                "email": "amanda.michaelson@example.com"
+            }
+        ],
+        "personalUrls": [
+            {
+                "url": "https://www.linkedin.com/in/am",
+                "type": "linkedin"
+            }
+        ]
+    },
+    "summary": {
+        "totalExperienceYears": "27",
+        "totalExperienceMonths": "327",
+        "currentJob": "Senior Credit Analyst",
+        "currentEmployer": "Acme Corp.",
+        "currentWorkField": {
+            "workFieldCode": "254",
+            "workFieldDescription": "Financial Experts",
+            "experienceLevelCode": "CV_5_EXPERT",
+            "experienceLevelDescription": "Expert"
+        },
+        "highestDegree": {
+            "localCode": "US_3",
+            "localDescription": "Master",
+            "internationalCode": "4",
+            "internationalDescription": "Master",
+            "endDate": "2000-06-30"
+        },
+        "summaryAmbitionSection": "Summary\n\nA proactive and ambitious individual with experience in Customer Service, Researching, Clerical\nduties, and Leadership. Team player; detail-orientated individual with the ability to adapt to any\nenvironment Knowledge in Microsoft Office, Microsoft Word, Power Point, and Excel.",
+        "extraCurricularSection": "Hobbies\nGardening, reading, going to cabaret shows"
+    },
+    "educationHistory": {
+        "degrees": [
+            {
+                "degreeName": "specialized in Commere",
+                "localCode": "US_8",
+                "localDescription": "High School",
+                "internationalCode": "1",
+                "internationalDescription": "Secondary Education",
+                "institute": "Mesa High School",
+                "location": "Mesa",
+                "city": "Mesa",
+                "region": "AZ",
+                "country": {
+                    "code": "US",
+                    "description": "United States"
+                },
+                "startDate": "1992-09-01",
+                "endDate": "1996-06-30",
+                "diplomaCode": "1",
+                "diplomaDescription": "Yes",
+                "gradePointAverage": "4.3",
+                "description": "1992-1996 Mesa High School, specialized in Commere Grade Point Average: 4.3",
+                "itemId": "edu_0"
+            },
+            {
+                "degreeName": "Master in Sales and Commerce",
+                "localCode": "US_3",
+                "localDescription": "Master",
+                "internationalCode": "4",
+                "internationalDescription": "Master",
+                "institute": "State University",
+                "location": "New York",
+                "city": "New York",
+                "region": "NY",
+                "country": {
+                    "code": "US",
+                    "description": "United States"
+                },
+                "startDate": "1996-09-01",
+                "endDate": "2000-06-30",
+                "diplomaCode": "1",
+                "diplomaDescription": "Yes",
+                "gradePointAverage": "",
+                "description": "1996-2000 State University, New York, Master in Sales and Commerce",
+                "itemId": "edu_1"
+            }
+        ],
+        "courses": [
+            {
+                "courseName": "Marketing basic course",
+                "institute": "Darlington Employment Services",
+                "location": "Darlington",
+                "city": "Darlington",
+                "region": "SC",
+                "country": {
+                    "code": "US",
+                    "description": "United States"
+                },
+                "startDate": "1997-09-01",
+                "endDate": "1997-10-29",
+                "description": "Marketing basic course at Darlington Employment Services, Darlington SC. 1997-09-01 - 1997-10-29.",
+                "itemId": "edu_2"
+            }
+        ],
+        "educationSection": "Education\n1992-1996 Mesa High School, specialized in Commere\nGrade Point Average: 4.3\n\n1996-2000 State University, New York, Master in Sales and Commerce"
+    },
+    "employmentHistory": [
+        {
+            "jobTitle": "Senior Credit Analyst",
+            "organization": "Acme Corp.",
+            "location": "New York",
+            "city": "New York",
+            "region": "NY",
+            "country": {
+                "code": "US",
+                "description": "United States"
+            },
+            "professionCode": "1981",
+            "professionDescription": "Credit Analyst",
+            "professionGroupCode": "254",
+            "professionGroupDescription": "Financial Experts",
+            "professionClassCode": "24",
+            "professionClassDescription": "Insurance and Finance",
+            "oNET2010Code": "13_2041_00",
+            "oNET2010Description": "Credit Analysts",
+            "oNET2019Code": "13-2041.00",
+            "iSCO2008Code": "3312",
+            "iSCO2008Description": "Credit and loans officers",
+            "startDate": "2002-03-01",
+            "endDate": "__NOWSTRING__",
+            "years": "22",
+            "months": "258",
+            "is_latest_experience": "1",
+            "is_current_experience": "1",
+            "description": "*Position involves working closely with high profile resellers, to facilitate growth for the\ncompany while minimizing risk of loss. Reviewing customers' financials, setting credit\nlines, and maintaining those accounts, making sure customers are staying within terms.\nWork with other divisions in the company to resolve disputes, and finding creative new\nfinancing options to support new opportunities.",
+            "itemId": "exp_0"
+        },
+        {
+            "jobTitle": "Credit Analyst",
+            "organization": "Acme Corp.",
+            "location": "New York",
+            "city": "New York",
+            "region": "NY",
+            "country": {
+                "code": "US",
+                "description": "United States"
+            },
+            "professionCode": "1981",
+            "professionDescription": "Credit Analyst",
+            "professionGroupCode": "254",
+            "professionGroupDescription": "Financial Experts",
+            "professionClassCode": "24",
+            "professionClassDescription": "Insurance and Finance",
+            "oNET2010Code": "13_2041_00",
+            "oNET2010Description": "Credit Analysts",
+            "oNET2019Code": "13-2041.00",
+            "iSCO2008Code": "3312",
+            "iSCO2008Description": "Credit and loans officers",
+            "startDate": "2002-07-01",
+            "endDate": "2004-10-31",
+            "years": "2",
+            "months": "28",
+            "is_latest_experience": "0",
+            "is_current_experience": "0",
+            "description": "*Main duties include working with Value Added Resellers, setting up new accounts, and\nworking closely with a large customer base to make sure those accounts were maintained.\nAlso worked very closely with internal as well as external customers to resolve disputes\non account. Worked with inside, as well as outside sales representatives to support new\nopportunities.\nREFERENCE: Mr Leeroy  leeroy@example.com",
+            "itemId": "exp_1"
+        },
+        {
+            "jobTitle": "Credit Representative II",
+            "organization": "Acme Corp.",
+            "location": "New York",
+            "city": "New York",
+            "region": "NY",
+            "country": {
+                "code": "US",
+                "description": "United States"
+            },
+            "professionCode": "1958",
+            "professionDescription": "Employee Credit Analysis",
+            "professionGroupCode": "253",
+            "professionGroupDescription": "Insurance & Finance Personnel",
+            "professionClassCode": "24",
+            "professionClassDescription": "Insurance and Finance",
+            "oNET2010Code": "13_2041_00",
+            "oNET2010Description": "Credit Analysts",
+            "oNET2019Code": "13-2041.00",
+            "iSCO2008Code": "3312",
+            "iSCO2008Description": "Credit and loans officers",
+            "startDate": "2000-03-01",
+            "endDate": "2002-07-01",
+            "years": "2",
+            "months": "29",
+            "is_latest_experience": "0",
+            "is_current_experience": "0",
+            "description": "*Main duties included collections, and sending customers statements. Worked closely\nwith customers to keep accounts within their credit terms.\nREFERENCE: Mrs Connley      connley@example.com",
+            "itemId": "exp_2"
+        },
+        {
+            "jobTitle": "Sales Representative",
+            "organization": "Acme Corp.",
+            "location": "New York",
+            "city": "New York",
+            "region": "NY",
+            "country": {
+                "code": "US",
+                "description": "United States"
+            },
+            "professionCode": "5497",
+            "professionDescription": "Sales Representative",
+            "professionGroupCode": "203",
+            "professionGroupDescription": "Business Services Account Managers",
+            "professionClassCode": "21",
+            "professionClassDescription": "Sales and Trading",
+            "oNET2010Code": "41_3099_00",
+            "oNET2010Description": "Sales Representatives, Services, All Other",
+            "oNET2019Code": "41-3091.00",
+            "iSCO2008Code": "3322",
+            "iSCO2008Description": "Commercial sales representatives",
+            "startDate": "1996-06-01",
+            "endDate": "2000-03-01",
+            "years": "4",
+            "months": "46",
+            "is_latest_experience": "0",
+            "is_current_experience": "0",
+            "description": "*Duties included selling blinds, fabric, and carpet to a large retail customer base. Other\nduties included clerical, as well as head cashier.",
+            "itemId": "exp_3"
+        }
+    ],
+    "skills": {
+        "computerSkills": [
+            {
+                "skill": "Excel",
+                "skillCode": "KS1200H6XYN1CR0G5NZ0",
+                "skillDescription": "Microsoft Excel",
+                "level": "",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            },
+            {
+                "skill": "Microsoft Office",
+                "skillCode": "KS126HY6YLTB9R7XJC4Z",
+                "skillDescription": "Microsoft Office",
+                "level": "",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            },
+            {
+                "skill": "Power Point",
+                "skillCode": "KS127ZG6DBSF76WF7VYX",
+                "skillDescription": "Microsoft PowerPoint",
+                "level": "",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            },
+            {
+                "skill": "Microsoft Word",
+                "skillCode": "KS1200365FTR9X0M96T9",
+                "skillDescription": "Microsoft Word",
+                "level": "",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            }
+        ],
+        "languageSkills": [
+            {
+                "skillCode": "en",
+                "skillDescription": "English",
+                "levelCode": "6",
+                "levelDescription": "Native",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            },
+            {
+                "skillCode": "es",
+                "skillDescription": "Spanish",
+                "levelCode": "4",
+                "levelDescription": "Advanced",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            }
+        ],
+        "softSkills": [
+            {
+                "skill": "ability to adapt",
+                "skillCode": "KS120626HMWCXJWJC7VK",
+                "skillDescription": "Adaptability",
+                "level": "",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            },
+            {
+                "skill": "detail-orientated",
+                "skillCode": "KS9CAPZ777YNKP4YRCR2",
+                "skillDescription": "Attention to Detail",
+                "level": "",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            }
+        ],
+        "otherSkills": [
+            {
+                "skill": "Clerical duties",
+                "skillCode": "KS7G7FY6ZT1MQXD1KTDY",
+                "skillDescription": "Administrative Operations",
+                "level": "",
+                "years": "",
+                "last_used": "",
+                "foundIn": ""
+            },
+            {
+                "skill": "clerical",
+                "skillCode": "KS7G7FY6ZT1MQXD1KTDY",
+                "skillDescription": "Administrative Operations",
+                "level": "",
+                "years": "4",
+                "last_used": "2000-03-01",
+                "foundIn": "exp_3"
+            },
+            {
+                "skill": "resolve disputes",
+                "skillCode": "KS1228S6YKWXMH4M4DL7",
+                "skillDescription": "Conflict Resolution",
+                "level": "",
+                "years": "22",
+                "last_used": "__NOWSTRING__",
+                "foundIn": "exp_0, exp_1"
+            }
+        ]
+    },
+    "other": {
+        "hobbies": [
+            {
+                "hobby": "Gardening"
+            },
+            {
+                "hobby": "reading"
+            }
+        ]
+    }
+}

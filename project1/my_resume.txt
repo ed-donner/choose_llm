@@ -1,0 +1,47 @@
+Edward Donner
+10 W 14th Street,
+New York NY 10001
+Phone: 212-123-7878
+Email: ed@edwarddonner.com
+US Citizen
+UK Citizen
+
+Summary: Currently Co-Founder and CTO of AI startup Nebula.io; previously founder and CEO of AI startup untapt, acquired in 2020. 20+ year career in technology and data science.
+
+Skills:
+
+Entrepreneurship, Technical leadership, Python, Data Science, LLMs, Generative AI
+
+Work Experience:
+
+June 2021 - Present
+Co-Founder and CTO
+Nebula.io
+
+I’m the co-founder and CTO of Nebula.io. We help recruiters source, understand, engage and manage talent, using Generative AI and other forms of machine learning. Our patented model matches people with roles with greater accuracy and speed than previously imaginable — no keywords required. Take a look for yourself at https://nebula.io; it’s completely free to try.
+
+Our long term goal is to help people discover their potential and pursue their reason for being, motivated by a concept called Ikigai. We help people find roles where they will be most fulfilled and successful; as a result, we will raise the level of human prosperity. It sounds grandiose, but since 77% of people don’t consider themselves inspired or engaged at work, it’s completely within our reach.
+
+Oct 2013 - June 2021
+Founder, CEO, CTO
+untapt.com
+I founded untapt in October 2013; emerged from stealth in 2014 and went into production with first product in 2015. I
+
+July 1997 - Oct 2013
+Managing Director
+JPMorgan Chase
+
+Aug 1995 - June 1997
+Software Developer
+IBM
+
+Education:
+
+1992-1995
+Physics
+University of Oxford
+
+Hobbies:
+
+Coding
+Amateur DJ

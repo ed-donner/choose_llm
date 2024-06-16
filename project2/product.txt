@@ -1,0 +1,31 @@
+ProsperAI
+Holistic Personal Financial Management Platform
+
+Introduction
+
+ProsperAI is a new platform for managing your entire personal wealth, in one place.
+It's like having your own dedicated personal wealth planner, looking after your finances, monitoring your portfolio and tracking your savings and retirement.
+
+Key features:
+
+1. Single holistic view of your entire wealth, including liquid and illiquid assets
+2. Aggregated bank account statements across your financial institutions
+3. Tracking of 401k and pension plans
+4. Incorporates your full financial picture, including brokerage accounts, and including loans and credit card debt
+5. AI assistant to give you up to the minute advice on balancing your portfolio
+
+ProsperAI connects to your financial institutions and provides you with a single, one-stop-shop for managing your wealth.
+For property and other illiquid assets, you will provide the most recent valuations, and the platform will send you periodic reminders for reappraisals.
+
+What makes ProsperAI unique?
+
+- ProsperAI is integrated with over 300 financial institutions, ensuring a streamlined ability to bring in your account details and aggregate them in real time
+- ProsperAI can provide hollistic advice that takes into account your complete financial picture, including assessing concentration risks across your retirement funds and other portfolios
+- ProsperAI includes an intelligent AI agent that acts as your personal financial planner, always working to optimize your wealth
+
+Add-ons
+
+For an additional cost, the following features can be included:
+
+- ProsperTax can provide tax planning advice to optimize the tax efficiency across your portfolio
+- ProsperCredit identifies ways to combine your credit cards and other forms of debt
