@@ -7,7 +7,7 @@ To get started, after cloning the repo:
 
 1. Create a new virtual environment using something like `python3 -m venv /path/to/new/virtual/environment`
 2. Activate the virtual environment with `source /path/to/new/virtual/environment/bin/activate`
-3. Create a file called `.env` in the project root directory (this is .gitignored) and add any private API keys, such as:
+3. Create a file called `.env` in the project root directory (this is .gitignored) and add any private API keys, such as below:
 ```
 OPENAI_API_KEY=xxxx
 GOOGLE_API_KEY=xxxx
