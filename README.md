@@ -1,11 +1,13 @@
 # Choosing the Right LLM
 ### How to select, train and apply state-of-the-art LLMs to real-world business use cases.
 
-This repo has companion code to accompany my class on identifying and training LLMs.
+This repo has companion code for my class on comparing and training LLMs.
 
-Resources to accompany the class:
+### Resources to accompany the class
 
 https://edwarddonner.com/2024/06/26/choosing-the-right-llm-resources/
+
+### Experimenting with the examples yourself
 
 To get started, after cloning the repo:
 
