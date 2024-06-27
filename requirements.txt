@@ -1,7 +1,7 @@
 python-dotenv
 jupyterlab==4.2.1
 ipywidgets
-urllib3==1.26.6
+urllib3
 torch==2.3.0
 transformers==4.41.1
 accelerate==0.30.1
@@ -9,7 +9,7 @@ sentencepiece==0.2.0
 bitsandbytes==0.42.0
 tqdm==4.66.4
 openai
-gradio
+gradio==4.29.0
 langchain
 tiktoken
 faiss-cpu
@@ -21,3 +21,4 @@ matplotlib
 google.generativeai
 anthropic
 llama-cpp-python
+scikit-learn
