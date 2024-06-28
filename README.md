@@ -32,7 +32,7 @@ There are a couple of Google Colab notebooks that we will refer to:
 
 ### Alternative set up instructions if you're having problems
 
-If you have an issues with the setup instructions, it might be that you have an older Python version on your platform.
+If you have an issues with the setup instructions, it might be that you have an older Python version on your box.
 Use these alternative instructions:
 
 1. Install Anaconda
@@ -50,3 +50,5 @@ https://docs.anaconda.com/anaconda/install/
 4. Install the dependencies:
    
 `pip install -r requirements.txt`
+
+5. Run `jupyter lab` and head to the intro folder
