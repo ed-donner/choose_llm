@@ -15,10 +15,14 @@ tiktoken
 faiss-cpu
 langchain-openai
 langchain_experimental
+langchain_chroma
 langchain[docarray]
 datasets
 matplotlib
 google.generativeai
 anthropic
-llama-cpp-python
 scikit-learn
+unstructured
+chromadb
+plotly
+jupyter-dash
