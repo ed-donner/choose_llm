@@ -48,6 +48,6 @@
 
 ## Other HR Notes
 - Maxine participated in various company-sponsored trainings related to big data technologies and cloud infrastructure.  
-- She was recognized for her contributions with the “Insurellm Innovator Award” in 2022.  
+- She was recognized for her contributions with the prestigious Insurellm IIOTY Innovator Award in 2023.  
 - Maxine is currently involved in the women-in-tech initiative and participates in mentorship programs to guide junior employees.  
 - Future development areas include improving her stakeholder communication skills to ensure smoother project transitions and collaboration.  
