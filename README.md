@@ -1,73 +1,75 @@
 # Choosing the Right LLM
 ### How to select, train and apply state-of-the-art LLMs to real-world business use cases.
 
+![Choosing the right LLM](choose.jpg)
+
 This repo has companion code for my class on comparing and training LLMs.
 
 ### Resources to accompany the class
 
 The resources are [here](https://edwarddonner.com/2024/06/26/choosing-the-right-llm-resources/)
 
-### Recommended installation: using Anaconda
+### A note before you begin
 
-The recommended approach is to use Anaconda, which ensures our Python versions are consistent.
-If you'd prefer to use a virtualenv, that should work fine too - instructions are in the next section.
+I'm here to help you be most successful with your learning! If you hit any snafus, or if you have any ideas on how I can improve the course, please do reach out in the platform or by emailing me direct (ed@edwarddonner.com). It's always great to connect with people on LinkedIn to build up the community - you'll find me here:  
+https://www.linkedin.com/in/eddonner/
 
-After cloning this repo, install Anaconda if you don't have it already:
+If you'd like to go more deeply into LLMs and Agents:  
+- I'm running a number of [Live Events](https://www.oreilly.com/search/?q=author%3A%20%22Ed%20Donner%22) with O'Reilly and Pearson
+- I also have a comprehensive, hands-on 8-week [Mastering LLM engineering](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/?referralCode=35EB41EBB11DD247CF54) course that builds an entire Agentic AI platform from the ground up, including RAG and fine-tuning.
 
-https://docs.anaconda.com/anaconda/install/
+## For the introduction section - using Ollama
 
-Then here are the installation instructions:
+In the first section, we use Ollama to run a model locally
+1. Download and install Ollama from https://ollama.com noting that on a PC you might need to have administrator permissions for the install to work properly
+2. On a PC, start a Command prompt / Powershell (Press Win + R, type `cmd`, and press Enter). On a Mac, start a Terminal (Applications > Utilities > Terminal).
+3. Run `ollama run llama3.2` or for smaller machines try `ollama run llama3.2:1b`
+4. If this doesn't work, you may need to run `ollama serve` in another Powershell (Windows) or Terminal (Mac), and try step 3 again
+5. And if that doesn't work on your box, I've set up this on the cloud. This is on Google Colab, which will need you to have a Google account to sign in, but is free:  https://colab.research.google.com/drive/1-_f5XZPsChvfU1sJ0QqCePtIuc55LSdu?usp=sharing
 
-1. Use Anaconda to create a new Python 3.11 environment:
+Any problems, please contact me!
 
-`conda create -n choose-llms python=3.11`
+Now on to the main setup:
 
-2. Activate the environment:
+## Setup instructions
 
-`conda activate choose-llms`
+Hopefully I've done a decent job of making these guides bulletproof - but please contact me right away if you hit roadblocks:
 
-3. Create a file called `.env` in the project root directory (this is .gitignored) and add any private API keys, such as below. Alternatively you can type these keys directly into the notebooks. Details on creating API keys are in the resources.
-   
-```
-OPENAI_API_KEY=xxxx
-GOOGLE_API_KEY=xxxx
-ANTHROPIC_API_KEY=xxxx
-HF_TOKEN=xxxx
-```
+- PC people please follow the instructions in [SETUP-PC.md](SETUP-PC.md)
+- Mac people please follow the instructions in [SETUP-mac.md](SETUP-mac.md)
+- Linux people, the Mac instructions should be close enough!
 
-4. Install the dependencies:
-   
-`pip install -r requirements.txt`
+### An important point on API costs (which are optional! No need to spend if you don't wish)
 
-5. Run `jupyter lab` and head to the intro folder
+During this example project, I'll suggest you try out the leading models at the forefront of progress, known as the Frontier models. These services have some charges, but I'll keep cost minimal - like, a few cents at a time. And I'll provide alternatives if you'd prefer not to use them.
 
-### Google Colabs
+Please do monitor your API usage to ensure you're comfortable with spend; I've included links below. There's no need to spend anything more than a couple of dollars. Some AI providers such as OpenAI require a minimum credit like \$5 or local equivalent; we should only spend a fraction of it, and you'll have plenty of opportunity to put it to good use in your own projects. But it's not necessary in the least; the important part is that you focus on learning.
 
-At 2 points in the class we will refer to Google Colab notebooks.
+### The most important part
 
-In segment 1, when we run inference with open source models: [Link here](https://colab.research.google.com/drive/1CRgX6RVqnWZDexXLACbq91pX2I7O7Swu)
+The best way to learn is by **DOING**. I don't type all the code during the workshop; I execute it for you to see the results. You should work through afterwards, running each cell, inspecting the objects to get a detailed understanding of what's happening. Then tweak the code and make it your own.
 
-In segment 3, our main project to predict Amazon prices: [Data Curator Colab](https://colab.research.google.com/drive/1cYLqi3_XlXzbzYMKd8j0VDycIKmWABAS) | 
-[Training Colab](https://colab.research.google.com/drive/1TA_GwdrpWwRZfUw8I9y2fqqwFv9CBU1O) | 
-[Inference Colab](https://colab.research.google.com/drive/1V6_F3r6Tge3EASyffdcWWMrA7vOzHNL8)
+### Monitoring API charges
 
-### Alternative instructions: using a virtualenv, if you prefer
+You can keep your API spend very low; you can monitor spend at the dashboards: [here](https://platform.openai.com/usage) for OpenAI, [here](https://console.anthropic.com/settings/cost) for Anthropic and [here](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/cost) for Google Gemini.
 
-To get started, after cloning the repo:
+The charges for the exercises in this course should always be quite low, but if you'd prefer to keep them minimal, then be sure to always choose the cheapest versions of models:
+1. For OpenAI: Always use model `gpt-4o-mini` in the code instead of `gpt-4o`
+2. For Anthropic: Always use model `claude-3-haiku-20240307` in the code instead of the other Claude models
 
-1. Create a new virtual environment using something like `python3 -m venv /path/to/new/virtual/environment`
-2. Activate the virtual environment with `source /path/to/new/virtual/environment/bin/activate`
-3. Create a file called `.env` in the project root directory (this is .gitignored) and add any private API keys, such as below. Alternatively you can type these keys directly into the notebooks. Details on creating API keys are in the resources.
-   
-```
-OPENAI_API_KEY=xxxx
-GOOGLE_API_KEY=xxxx
-ANTHROPIC_API_KEY=xxxx
-HF_TOKEN=xxxx
-```
+Please do message me or email me at ed@edwarddonner.com if this doesn't work or if I can help with anything. I can't wait to hear how you get on.
 
-4. From the repo root directory, run `pip install -r requirements.txt`
-5. Run `jupyter lab` to launch Jupyter and head over to the intro folder to get started.
-
-
-
+<table style="margin: 0; text-align: left;">
+    <tr>
+        <td style="width: 150px; height: 150px; vertical-align: middle;">
+            <img src="resources.jpg" width="150" height="150" style="display: block;" />
+        </td>
+        <td>
+            <h2 style="color:#f71;">Other resources</h2>
+            <span style="color:#f71;">I've put together this webpage with useful resources.<br/>
+            <a href="https://edwarddonner.com/2024/06/26/choosing-the-right-llm-resources/">https://edwarddonner.com/2024/06/26/choosing-the-right-llm-resources/</a><br/>
+            Please keep this bookmarked, and I'll continue to add more useful links there over time.
+            </span>
+        </td>
+    </tr>
+</table>
