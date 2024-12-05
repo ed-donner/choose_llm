@@ -129,6 +129,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+choose/
+choose.bak/
 
 # Spyder project settings
 .spyderproject
@@ -165,3 +167,6 @@ model_cache/
 
 # Ignore Chroma vector database
 vector_db/
+
+# Ignore diagnostics report
+report.txt
