@@ -47,3 +47,4 @@ dependencies:
     - psutil
     - setuptools
     - speedtest-cli
+    - groq
