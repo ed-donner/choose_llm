@@ -29,17 +29,20 @@ def load_callback(red_llm, yellow_llm):
 
 def move_callback(game):
     game.move()
+    message = message_html(game)
     if_active = gr.Button(interactive=game.board.is_active())
-    return game, game.board.svg(), game.thoughts(RED), game.thoughts(YELLOW), if_active, if_active
+    return game, game.board.svg(), message, game.thoughts(RED), game.thoughts(YELLOW), if_active, if_active
 
 def run_callback(game):
     enabled = gr.Button(interactive=True)
     disabled = gr.Button(interactive=False)
-    yield game, game.board.svg(), game.thoughts(RED), game.thoughts(YELLOW), disabled, disabled, disabled
+    message = message_html(game)
+    yield game, game.board.svg(), message, game.thoughts(RED), game.thoughts(YELLOW), disabled, disabled, disabled
     while game.board.is_active():
         game.move()
-        yield game, game.board.svg(), game.thoughts(RED), game.thoughts(YELLOW), disabled, disabled, disabled
-    yield game, game.board.svg(), game.thoughts(RED), game.thoughts(YELLOW), disabled, disabled, enabled
+        message = message_html(game)
+        yield game, game.board.svg(), message, game.thoughts(RED), game.thoughts(YELLOW), disabled, disabled, disabled
+    yield game, game.board.svg(), message, game.thoughts(RED), game.thoughts(YELLOW), disabled, disabled, enabled
 
 def model_callback(player_name, game, new_model_name):
     player = game.players[player_name]
@@ -89,11 +92,11 @@ with gr.Blocks(title="C4 Battle", css=css, js=js, theme=gr.themes.Default(primar
             
 
     blocks.load(load_callback, inputs=[red_dropdown, yellow_dropdown], outputs=[game, board_display, message, red_thoughts, yellow_thoughts, move_button, run_button, reset_button])
-    move_button.click(move_callback, inputs=[game], outputs=[game, board_display, red_thoughts, yellow_thoughts, move_button, run_button])
+    move_button.click(move_callback, inputs=[game], outputs=[game, board_display, message, red_thoughts, yellow_thoughts, move_button, run_button])
     red_dropdown.change(red_model_callback, inputs=[game, red_dropdown], outputs=[game])
     yellow_dropdown.change(yellow_model_callback, inputs=[game, yellow_dropdown], outputs=[game])
-    run_button.click(run_callback, inputs=[game], outputs=[game, board_display, red_thoughts, yellow_thoughts, move_button, run_button, reset_button])
-    reset_button.click(load_callback, inputs=[red_dropdown, yellow_dropdown], outputs=[game, board_display, red_thoughts, yellow_thoughts, move_button, run_button, reset_button])
+    run_button.click(run_callback, inputs=[game], outputs=[game, board_display, message, red_thoughts, yellow_thoughts, move_button, run_button, reset_button])
+    reset_button.click(load_callback, inputs=[red_dropdown, yellow_dropdown], outputs=[game, board_display, message, red_thoughts, yellow_thoughts, move_button, run_button, reset_button])
     
 
 blocks.launch(share=False, inbrowser=True)

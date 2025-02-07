@@ -164,12 +164,12 @@ class GPT(LLM):
         )
         return response.choices[0].message.content
 
-class O(LLM):
+class O1(LLM):
     """
     A class to act as an interface to the remote AI, in this case GPT
     """
 
-    model_names = [ "o1", "o1-mini", "o3-mini"]
+    model_names = [ "o1-mini"]
 
     def __init__(self, model_name: str, temperature: float):
         """
@@ -177,6 +177,43 @@ class O(LLM):
         """
         super().__init__(model_name, temperature)
         self.client = OpenAI()
+
+
+    def _send(self, system: str, user: str, max_tokens: int = 3000) -> str:
+        """
+        Send a message to GPT
+        :param system: the context in which this message is to be taken
+        :param user: the prompt
+        :param max_tokens: max number of tokens to generate
+        :return: the response from the AI
+        """
+        message = system + "\n\n" + user
+        response = self.client.chat.completions.create(
+            model=self.model_name,
+            messages=[
+                {"role": "user", "content": message},
+            ],
+        )
+        return response.choices[0].message.content
+
+class O3(LLM):
+    """
+    A class to act as an interface to the remote AI, in this case GPT
+    """
+
+    model_names = [ "o3-mini"]
+
+    def __init__(self, model_name: str, temperature: float):
+        """
+        Create a new instance of the OpenAI client
+        """
+        super().__init__(model_name, temperature)
+        override = os.getenv("OPENAI_API_KEY_O3")
+        if override:
+            print("Using special key with o3 access")
+            self.client = OpenAI(api_key=override)
+        else:
+            self.client = OpenAI()
 
 
     def _send(self, system: str, user: str, max_tokens: int = 3000) -> str:
