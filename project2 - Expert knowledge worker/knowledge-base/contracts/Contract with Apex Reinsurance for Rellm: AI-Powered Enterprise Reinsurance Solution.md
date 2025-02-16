@@ -1,4 +1,4 @@
-# Contract with Apex Reinsurance for Rellm: AI-Powered Enterprise Reinsurance Solution
+# Contract with Apex Reinsurance for Rellm - AI-Powered Enterprise Reinsurance Solution
 
 ## Terms
 
