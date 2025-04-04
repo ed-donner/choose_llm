@@ -1,7 +1,7 @@
 # Choosing the Right LLM
 ### How to select, train and apply state-of-the-art LLMs to real-world business use cases.
 
-![Choosing the right LLM](choose.jpg)
+![Choosing the right LLM](pickme.png)
 
 This repo has companion code for my class on comparing and training LLMs.
 
