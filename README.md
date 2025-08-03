@@ -15,8 +15,8 @@ I'm here to help you be most successful with your learning! If you hit any snafu
 https://www.linkedin.com/in/eddonner/
 
 If you'd like to go more deeply into LLMs and Agents:  
+- I have a [program of intensive courses on LLM Engineering and Agents](https://edwarddonner.com/2025/05/28/connecting-my-courses-become-an-llm-expert-and-leader/) which goes more deeply into all of these projects, along with Agentic AI. 14 weeks of content, including RAG, fine-tuning and autonomous Agentic AI, with juicy projects including Autonomous financial markets traders  
 - I'm running a number of [Live Events](https://www.oreilly.com/search/?q=author%3A%20%22Ed%20Donner%22) with O'Reilly and Pearson
-- I also have a comprehensive, hands-on 8-week [Mastering LLM engineering](https://www.udemy.com/course/llm-engineering-master-ai-and-large-language-models/?referralCode=35EB41EBB11DD247CF54) course that builds an entire Agentic AI platform from the ground up, including RAG and fine-tuning.
 
 ## For the introduction section - using Ollama
 
