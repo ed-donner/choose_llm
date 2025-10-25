@@ -1,0 +1,25 @@
+{
+    "name": "Choose the right LLM",
+    "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+    "secrets": {
+        "OPENAI_API_KEY": {
+            "description": "Your OpenAI API key for running the workshop examples",
+            "documentationUrl": "https://platform.openai.com/api-keys"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.defaultInterpreterPath": "./.venv/bin/python",
+                "python.analysis.typeCheckingMode": "basic"
+            },
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "charliermarsh.ruff"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install uv && uv sync",
+    "remoteUser": "vscode"
+}

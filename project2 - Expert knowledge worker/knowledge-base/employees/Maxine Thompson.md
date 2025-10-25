@@ -3,9 +3,10 @@
 # Maxine Thompson
 
 ## Summary
-- **Date of Birth:** January 15, 1991  
-- **Job Title:** Data Engineer  
-- **Location:** Austin, Texas  
+- **Date of Birth:** January 15, 1991
+- **Job Title:** Data Engineer
+- **Location:** Austin, Texas
+- **Current Salary:** $120,000  
 
 ## Insurellm Career Progression
 - **January 2017 - October 2018**: **Junior Data Engineer**  
@@ -13,7 +14,7 @@
 - **November 2018 - December 2020**: **Data Engineer**  
   * In her new role, Maxine expanded her responsibilities to include designing comprehensive data models and improving data quality measures. Though she excelled in technical skills, communication issues with non-technical teams led to some project delays.  
 - **January 2021 - Present**: **Senior Data Engineer**  
-  * Maxine was promoted to Senior Data Engineer after successfully leading a pivotal project that improved data retrieval times by 30%. She now mentors junior engineers and is involved in strategic data initiatives, solidifying her position as a valued asset at Insurellm. She was recognized as Insurellm Innovator of the year in 2023; Maxine won the prestigious IIOTY 2023 award.  
+  * Maxine was promoted to Senior Data Engineer after successfully leading a pivotal project that improved data retrieval times by 30%. She now mentors junior engineers and is involved in strategic data initiatives, solidifying her position as a valued asset at Insurellm. She was recognized as Insurellm Innovator of the year in 2023, receiving the prestigious IIOTY 2023 award.  
 
 ## Annual Performance History
 - **2017**: *Meets Expectations*  

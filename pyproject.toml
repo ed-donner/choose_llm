@@ -1,0 +1,26 @@
+[project]
+name = "choose-llm"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "chromadb>=1.2.1",
+    "gradio>=5.49.1",
+    "ipykernel>=7.0.1",
+    "ipywidgets>=8.1.7",
+    "jupyter-dash>=0.4.2",
+    "langchain>=1.0.2",
+    "langchain-chroma>=1.0.0",
+    "langchain-community>=0.4",
+    "langchain-huggingface>=1.0.0",
+    "langchain-openai>=1.0.1",
+    "langchain-text-splitters>=1.0.0",
+    "litellm>=1.78.7",
+    "nbformat==5.10.4",
+    "openai>=2.6.1",
+    "plotly>=6.3.1",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "scikit-learn>=1.7.2",
+    "sentence-transformers>=5.1.2",
+    "tiktoken>=0.12.0",
+]
