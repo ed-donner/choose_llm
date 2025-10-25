@@ -1,9 +1,9 @@
 {
     "name": "Choose the right LLM",
-    "image": "mcr.microsoft.com/devcontainers/python:3.12-bookworm",
+    "image": "python:3.12-slim-bookworm",
     "secrets": {
         "OPENAI_API_KEY": {
-            "description": "Your OpenAI API key for running the workshop examples",
+            "description": "Your OpenAI API key",
             "documentationUrl": "https://platform.openai.com/api-keys"
         }
     },
@@ -20,6 +20,6 @@
             ]
         }
     },
-    "postCreateCommand": "curl -LsSf https://astral.sh/uv/install.sh | sh && uv sync",
-    "remoteUser": "vscode"
+    "postCreateCommand": "bash .devcontainer/setup.sh",
+    "remoteUser": "root"
 }
