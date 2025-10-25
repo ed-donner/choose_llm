@@ -18,7 +18,9 @@ If you'd like to go more deeply into LLMs and Agents and AI Production deploymen
 - I have a [program of intensive courses on LLM Engineering and Agents](https://edwarddonner.com/2025/05/28/connecting-my-courses-become-an-llm-expert-and-leader/) which goes more deeply into all of these projects, along with Agentic AI. 14 weeks of content, including RAG, fine-tuning and autonomous Agentic AI, with juicy projects including Autonomous financial markets traders  
 - I'm running a number of [Live Events](https://www.oreilly.com/search/?q=author%3A%20%22Ed%20Donner%22) with O'Reilly and Pearson
 
-## To open this repo in Github Codespaces
+## For those that use GitHub Codespaces
+
+GitHub codespaces users can use this to launch a codespace for this repo.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ed-donner/choose_llm?quickstart=1)
 
