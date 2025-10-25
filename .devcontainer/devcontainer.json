@@ -10,13 +10,22 @@
     "customizations": {
         "vscode": {
             "settings": {
-                "python.defaultInterpreterPath": "./.venv/bin/python",
-                "python.analysis.typeCheckingMode": "basic"
+                "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+                "python.analysis.typeCheckingMode": "basic",
+                "jupyter.kernels.filter": [
+                    {
+                        "path": "${workspaceFolder}/.venv/bin/python",
+                        "type": "pythonEnvironment"
+                    }
+                ],
+                "notebook.defaultKernel": ".venv"
             },
             "extensions": [
                 "ms-python.python",
                 "ms-python.vscode-pylance",
-                "charliermarsh.ruff"
+                "charliermarsh.ruff",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.vscode-jupyter-cell-tags"
             ]
         }
     },
