@@ -1,7 +1,7 @@
 # Choosing the Right LLM
 ### How to select, train and apply state-of-the-art LLMs to real-world business use cases.
 
-![Choosing the right LLM](pickme.png)
+![Choosing the right LLM](assets/pickme.png)
 
 This repo has companion code for my class on comparing and training LLMs.
 
@@ -14,9 +14,13 @@ The resources are [here](https://edwarddonner.com/2024/06/26/choosing-the-right-
 I'm here to help you be most successful with your learning! If you hit any snafus, or if you have any ideas on how I can improve the course, please do reach out in the platform or by emailing me direct (ed@edwarddonner.com). It's always great to connect with people on LinkedIn to build up the community - you'll find me here:  
 https://www.linkedin.com/in/eddonner/
 
-If you'd like to go more deeply into LLMs and Agents:  
+If you'd like to go more deeply into LLMs and Agents and AI Production deployments:  
 - I have a [program of intensive courses on LLM Engineering and Agents](https://edwarddonner.com/2025/05/28/connecting-my-courses-become-an-llm-expert-and-leader/) which goes more deeply into all of these projects, along with Agentic AI. 14 weeks of content, including RAG, fine-tuning and autonomous Agentic AI, with juicy projects including Autonomous financial markets traders  
 - I'm running a number of [Live Events](https://www.oreilly.com/search/?q=author%3A%20%22Ed%20Donner%22) with O'Reilly and Pearson
+
+## To open this repo in Github Codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/ed-donner/choose_llm?quickstart=1)
 
 ## For the introduction section - using Ollama
 
@@ -35,9 +39,7 @@ Now on to the main setup:
 
 Hopefully I've done a decent job of making these guides bulletproof - but please contact me right away if you hit roadblocks:
 
-- PC people please follow the instructions in [SETUP-PC.md](SETUP-PC.md)
-- Mac people please follow the instructions in [SETUP-mac.md](SETUP-mac.md)
-- Linux people, the Mac instructions should be close enough!
+[Setup Instructions](setup/SETUP-new.md)
 
 ### An important point on API costs (which are optional! No need to spend if you don't wish)
 
@@ -54,15 +56,15 @@ The best way to learn is by **DOING**. I don't type all the code during the work
 You can keep your API spend very low; you can monitor spend at the dashboards: [here](https://platform.openai.com/usage) for OpenAI, [here](https://console.anthropic.com/settings/cost) for Anthropic and [here](https://console.cloud.google.com/apis/api/generativelanguage.googleapis.com/cost) for Google Gemini.
 
 The charges for the exercises in this course should always be quite low, but if you'd prefer to keep them minimal, then be sure to always choose the cheapest versions of models:
-1. For OpenAI: Always use model `gpt-4o-mini` in the code instead of `gpt-4o`
-2. For Anthropic: Always use model `claude-3-haiku-20240307` in the code instead of the other Claude models
+1. For OpenAI: Always use model `gpt-4.1-nano` in the code instead of other models
+2. For Anthropic: Always use model `claude-haiku-4-5` in the code instead of the other Claude models
 
 Please do message me or email me at ed@edwarddonner.com if this doesn't work or if I can help with anything. I can't wait to hear how you get on.
 
 <table style="margin: 0; text-align: left;">
     <tr>
         <td style="width: 150px; height: 150px; vertical-align: middle;">
-            <img src="resources.jpg" width="150" height="150" style="display: block;" />
+            <img src="assets/resources.jpg" width="150" height="150" style="display: block;" />
         </td>
         <td>
             <h2 style="color:#f71;">Other resources</h2>
