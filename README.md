@@ -14,9 +14,10 @@ The resources are [here](https://edwarddonner.com/2024/06/26/choosing-the-right-
 I'm here to help you be most successful with your learning! If you hit any snafus, or if you have any ideas on how I can improve the course, please do reach out in the platform or by emailing me direct (ed@edwarddonner.com). It's always great to connect with people on LinkedIn to build up the community - you'll find me here:  
 https://www.linkedin.com/in/eddonner/
 
-If you'd like to go more deeply into LLMs and Agents and AI Production deployments:  
-- I have a [program of intensive courses on LLM Engineering and Agents](https://edwarddonner.com/2025/05/28/connecting-my-courses-become-an-llm-expert-and-leader/) which goes more deeply into all of these projects, along with Agentic AI. 14 weeks of content, including RAG, fine-tuning and autonomous Agentic AI, with juicy projects including Autonomous financial markets traders  
-- I'm running a number of [Live Events](https://www.oreilly.com/search/?q=author%3A%20%22Ed%20Donner%22) with O'Reilly and Pearson
+If you'd like to go more deeply into LLMs and Agents:
+- I have a [program of intensive courses on LLM Engineering and Agents](https://edwarddonner.com/curriculum/) with 20+ weeks of courses  
+- My [Proficient AI Engineer Program](https://edwarddonner.com/proficient/)
+- I'm running a number of [Live Events](https://edwarddonner.com/2025/11/11/ai-live-event/) with O'Reilly and Pearson
 
 ## For those that use GitHub Codespaces
 
